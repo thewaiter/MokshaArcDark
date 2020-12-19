@@ -1,0 +1,18 @@
+#include "macros.edc"
+
+#define THEME_NAME_UPPER "Arc Green"
+#define THEME_NAME_LOWER "arc-green"
+
+externals.external: "elm";
+
+// theme api version. from 1.10 on we will check version to avoid
+// compat issues
+data.item: "version" "110";
+data.item: "icon-theme" "arc-green-icons-GTK";
+data.item: "gtk-theme" "MokshaArcGreen";
+
+collections {
+#include "fonts_arc-dark.edc"
+#include "colorclasses_arc-dark.edc"
+#include "common_includes_arc.edc"
+}
