@@ -8,7 +8,7 @@ externals.external: "elm";
 // theme api version. from 1.10 on we will check version to avoid
 // compat issues
 data.item: "version" "110";
-data.item: "icon-theme" "Arc Dark";
+data.item: "icon-theme" "Arc-Dark";
 data.item: "gtk-theme" "Enlightenment-X";
 
 collections {
