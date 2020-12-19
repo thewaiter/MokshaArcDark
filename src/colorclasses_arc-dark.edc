@@ -71,6 +71,19 @@ color_classes {
       color: COL_BG;
       description: "Background color";
    }
+    color_class { name: "col_active";
+      color: CLOSE_ACTIVE;
+      desc: "Blue active color";
+   }
+   color_class { name: "col_darker";
+      color: COL_BG_DARKER;
+      desc: "Dark color";
+   }
+   color_class { name: "focused_border";
+      color: COL_ENABLE;
+      desc: "Focus border";
+   }
+   
 // wm
    color_class { name: "win_border_title";
       color: COL_FONT_BASIC_DISABLED;

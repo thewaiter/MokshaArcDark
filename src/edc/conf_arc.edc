@@ -57,7 +57,7 @@ group { name: "e/modules/conf/main";
             max: 80 80;
             rel1.offset: 4 4;
             rel2.offset: -5 -5;
-            color: 65 146 54 255;
+            color: 82 146 226 255;
             image.normal: "spanner_white_arc.png";
             //~ color_class: "button_icon";
          }
