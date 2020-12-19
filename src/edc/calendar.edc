@@ -59,7 +59,7 @@ images {
                rel2 {
                   offset: 0 0;
                }
-               color: 65 146 54 255; 
+               color: 82  146 226 255; 
 	    }
 	 }
 	 FLASHY_RECT("year/left", 0.0, 0.06);
@@ -420,7 +420,7 @@ images {
 	       rel1.offset: -1 -1;
 	       rel2.to: "e.text.label";
 	       rel2.offset: 1 1;
-	       color: 65 146 54 128;
+	       color: 82 146 226 128;
 	    }
 	 }
 	 part {
@@ -432,7 +432,7 @@ images {
 	       rel1.offset: 0 0;
 	       rel2.to: "e.text.label";
 	       rel2.offset: 0 0;
-	       color: 65 146 54 255;
+	       color: 82 146 226 255;
 	    }
 	 }
          part {
