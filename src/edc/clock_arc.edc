@@ -894,7 +894,7 @@ group { name: "e/modules/clock/calendar/day";
 			}
    
    part { name: "day"; type: RECT;
-				mouse_events: 0;
+				mouse_events: 1;
 				description { state: "default" 0.0;
 					color: 56 60 74 255;
 				}
@@ -903,6 +903,10 @@ group { name: "e/modules/clock/calendar/day";
 					color: 56 60 74 255;
 				}
 			}
+      program { name: "date_clicked";
+            signal: "mouse,clicked,1*"; source: "day";
+            action: SIGNAL_EMIT "e,action,date,get" "";
+      } 
       part { name: "e.text.label"; type: TEXT; mouse_events: 0;
          scale: 1;
          description { state: "default" 0.0;
