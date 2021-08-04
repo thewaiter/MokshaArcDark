@@ -986,6 +986,12 @@ group {
          target: "e.event.resize.bl";
          target: "e.event.resize.b";
          target: "e.event.resize.br";
+         after: "title_active";
+      }
+      program {
+         name: "title_active";
+         action: STATE_SET "active" 0.0;
+         target: "e.text.title";
       }
       program {
          signal: "mouse,clicked,*";
