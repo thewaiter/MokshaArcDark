@@ -205,7 +205,7 @@ group { name: "e/modules/notification/main";
             rel1.relative: 1.0 1.0;
             rel1.offset: 4 4;
             rel2.to: "base";
-            rel2.offset: -27 -11;
+            rel2.offset: -27 -31;
             color_class: "popup_text";
             text {
                style: "notification_style";
