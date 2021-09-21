@@ -78,10 +78,13 @@ EDJE_CC_FLAGS=$(EDJE_CC_IMG_FLAGS) $(EDJE_CC_SND_FLAGS)
 
 
 all: ../arc.edj ../arc-dark.edj ../arc-darker.edj
+	chmod 644 ../arc.edj
+	chmod 644 ../MokshaArcDark.edj
 
 ../arc.edj: $(ARC_SRC) $(ARC_COMMON_SRC)
 	$(info Building arc theme..)
 	$(EDJE_CC) $(EDJE_CC_FLAGS) arc.edc ../arc.edj
+	chmod 644 ../arc.edj
 
 ../arc-dark.edj: $(ARC_DARK_SRC) $(ARC_COMMON_SRC)
 	$(info Building arc dark theme..)
