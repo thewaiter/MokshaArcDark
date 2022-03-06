@@ -67,30 +67,29 @@
 
 
 color_classes {
-
-   color_class { name: "background";
+    color_class { name: "background";
       color: COL_BG;
-      description: "Background color";
+      desc: "Background color";
    }
    color_class { name: "col_active";
       color: CLOSE_ACTIVE;
-      desc: "Green active color";
+      desc: "Red close button color";
    }
-   color_class { name: "col_darker";
+   color_class { name: "border_frame";
       color: COL_BG_DARKER;
       desc: "Dark color";
    }
-   color_class { name: "col_border";
+    color_class { name: "border_frame_active";
       color: COL_BORDER_BLUE;
       desc: "Blue color";
    }
    
 // wm
-   color_class { name: "win_border_title";
+   color_class { name: "border_title";
       color: COL_FONT_BASIC_DISABLED;
       desc: "Window border frame title";
    }
-   color_class { name: "win_border_title_active";
+   color_class { name: "border_title_active";
       color: COL_FONT_BASIC_DEFAULT;
       desc: "Window border frame title active";
    }
@@ -98,7 +97,7 @@ color_classes {
       color: WIN_BORDER_LINE;
       desc: "Window border outline color";
    }
-   color_class { name: "win_border_base";
+   color_class { name: "border_base";
       color: WIN_BORDER_BG;
       desc: "Window border title background color";
    }
@@ -291,11 +290,11 @@ color_classes {
       color: COL_BG;
       desc: "Winlist background";
    }
-   color_class { name: "winlist_item_selected_bg";
+   color_class { name: "winlist_item_active";
       color: COL_PRESSED;
       desc: "Winlist item selected background";
    }
-   color_class { name: "winlist_item_text";
+   color_class { name: "winlist_item";
       color: COL_FONT_BASIC_DEFAULT;
       desc: "Winlist text of an inactive item";
    }
@@ -319,7 +318,7 @@ color_classes {
       color: COL_BG_DARK;
       desc: "Dialog base color of a dialog window";
    }
-   color_class { name: "shelf_base_default";
+   color_class { name: "shelf_base";
       color: COL_BG_DARKER;
       desc: "Shelf base of default shelf";
    }
