@@ -99,7 +99,11 @@ color_classes {
    }
    color_class { name: "border_base";
       color: WIN_BORDER_BG;
-      desc: "Window border title background color";
+      desc: "Window border background color";
+   }
+   color_class { name: "border_base_active";
+      color: WIN_BORDER_BG;
+      desc: "Window border background active color";
    }
    color_class { name: "win_border_border_shadow";
       color: WIN_BORDER_UNDERLINE;
