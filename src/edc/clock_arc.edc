@@ -901,7 +901,7 @@ group { name: "e/modules/clock/calendar/day";
 				}
 				description { state: "today" 0.0;
 					inherit: "default" 0.0;
-					color: 82 144 224 255;
+					color: 82 166 224 255;
 				}
 			}
       program { name: "date_clicked";
