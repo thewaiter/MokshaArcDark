@@ -10,7 +10,7 @@ group { name: "e/widgets/winlist/main";
             image.border_scale: 1;
             image.border_scale_by: 0.25;
             image.middle: SOLID;
-            fill.smooth: 0;
+            fill.smooth: 1;
             color_class: "winlist_bg";
          }
       }
@@ -37,6 +37,7 @@ group { name: "e/widgets/winlist/main";
             image.border_scale_by: 0.25;
             image.border: 3 3 3 3;
             rel1.offset: 0 1;
+            fill.smooth: 1;
             rel2.to: "top_bg";
             color_class: "win_border_border_shadow";
          }
@@ -53,7 +54,7 @@ group { name: "e/widgets/winlist/main";
             rel.to: "base";
             // rel1.offset: 1 1;
             // rel2.offset: -1 -1;
-            fill.smooth: 0;
+            fill.smooth: 1;
             color_class: "win_border_border";
          }
       }
