@@ -24,7 +24,7 @@ All assets are already exported as .png and included. inkscape and optipng are u
 
 # Contributing
 
-We welcome contributions from graphic artists who are knowledgeable in Plymouth scripts. It is essential that any artwork included is suitably licensed and fully credited to the artist or photographer. If you require further information or assistance, please do not hesitate to contact us. All themes submitted should be GPL version 3 or latter.
+We welcome contributions from graphic artists who are knowledgeable in EDC. It is essential that any artwork included is suitably licensed and fully credited to the artist or photographer. If you require further information or assistance, please do not hesitate to contact us. All themes submitted should be GPL version 3 or latter.
 
 # License
 
