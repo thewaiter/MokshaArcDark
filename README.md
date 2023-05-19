@@ -1,7 +1,7 @@
 # MokshaArcDark
 
 Original arc design from [horst3180](https://github.com/horst3180/arc-theme).
-
+![A screenshot of the Arc-Darker theme](https://raw.githubusercontent.com/thewaiter/MokshaArcDark/main/screenshots/MokshaArcDark0.png)
 ### Building
 
 To build the arc themes you need will need
