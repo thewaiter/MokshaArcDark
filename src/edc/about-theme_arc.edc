@@ -75,7 +75,7 @@ group { name: "e/theme/about";
             rel2.relative: 0.9 1.0;
             align: 0.5 0.0;
             text {  style: "about-theme-style";
-               text: "Original arc theme design from github.com/horst3180, code based on the default Enlightenment theme";
+               text: "Original arc theme design from github.com/horst3180, code based on the default Enlightenment theme<br>";
                min: 0 1;
                ellipsis: -1;
                align: 0.5 0.0;
@@ -118,7 +118,7 @@ group { name: "e/theme/about";
                rel2.to: "contributors";
                text {  style: "about-theme-style";
                   min: 0 1;
-                  text: "<br>Moksha Port by Štefan (thewaiter) Uram";
+                  text: "<br>Moksha Port: Štefan (thewaiter) Uram";
                   ellipsis: -1;
                   align: 0.5 0.5;
                }
@@ -129,7 +129,7 @@ group { name: "e/theme/about";
                color: COL_FONT_BASIC_DEFAULT;
             }
       }
-      part { name: "copyright"; type: TEXTBLOCK; mouse_events: 0;
+       part { name: "wallpaper"; type: TEXTBLOCK; mouse_events: 0;
          scale: 1;
          description { state: "default" 0.0;
             fixed: 1 1;
@@ -137,6 +137,27 @@ group { name: "e/theme/about";
             rel1.to: "bodhi";
             rel1.offset: 0 10;
             rel2.to: "bodhi";
+            text {  style: "about-theme-style";
+               min: 0 1;
+               text: "<br>Wallpaper: Simon Berger>";
+               ellipsis: -1;
+               align: 0.5 0.5;
+            }
+            color: COL_FONT_BASIC_TRANSPARENT;
+         }
+         desc { "visible";
+               inherit: "default";
+               color: COL_FONT_BASIC_DEFAULT;
+            }
+      }
+      part { name: "copyright"; type: TEXTBLOCK; mouse_events: 0;
+         scale: 1;
+         description { state: "default" 0.0;
+            fixed: 1 1;
+            rel1.relative: 0.0 1.0;
+            rel1.to: "wallpaper";
+            rel1.offset: 0 10;
+            rel2.to: "wallpaper";
             text {  style: "about-theme-style";
                min: 0 1;
                text: "<br>GPL 3.0";
@@ -232,6 +253,7 @@ group { name: "e/theme/about";
          target: "orig-arc-theme";
          target: "contributors";
          target: "bodhi";
+         target: "wallpaper";
          in: 0.2 0.0;
          transition: SIN 1.0;
       }

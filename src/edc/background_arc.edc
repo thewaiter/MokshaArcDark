@@ -4,10 +4,9 @@ group { name: "e/desktop/background";
    parts {
       part { name: "bg";
          description { state: "default" 0.0;
-            image.normal: "background_arc.jpg";
-            image.scale_hint: STATIC;
-            fill.smooth: 0;
-            ASPECT_FILL((1920/1280))
+         image { normal: "background_arc.jpg";  scale_hint: STATIC; }
+         fill.smooth: 0;
+         ASPECT_FILL((1920/1235))
          }
       }
    }
