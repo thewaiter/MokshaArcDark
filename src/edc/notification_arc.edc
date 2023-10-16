@@ -31,11 +31,11 @@ group { name: "e/modules/notification/logo";
           scale: 1;
           desc 
           {
-            rel1.to: "base";
-            rel2.to: "base";
-            rel2.offset: 0 3;
+            rel.to: "base";
+            rel1.offset: -2 3;
+            rel2.offset: -2 -1;
             state: "default" 0.0;
-            color: 65 146 54 255;
+            color: 203 209 219 255;
             visible: 1;
             text 
             {
@@ -43,7 +43,7 @@ group { name: "e/modules/notification/logo";
                font: "Sans:style=Bold";
                size: 8;
                min: 0 1;
-               align: 0.48 0.45;
+               align: 1.0 1.0;
                ellipsis: -1;
                text_class: "module_small";
             }
@@ -71,18 +71,18 @@ group { name: "e/modules/notification/logo";
          signal: "blink";
          source: "";
          action: STATE_SET "default" 0.0;
-         after: "big";
+         after: "down";
          target: "base";
        }
        program {
          name: "normal";
          action: STATE_SET "default" 0.0;
          target: "base";
-         after: "big";
+         after: "down";
          transition: DECELERATE 0.3;
        }
        program {
-         name: "big";
+         name: "down";
          action: STATE_SET "move_down" 0.0;
          target: "base";
          after: "normal";
