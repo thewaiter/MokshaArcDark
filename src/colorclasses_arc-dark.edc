@@ -513,7 +513,7 @@ color_classes {
       desc: "Toggle background active";
    }
    color_class { name: "entry_text";
-      color: COL_FONT_BASIC_DEFAULT;
+      color: COL_FONT_BASIC_ACTIVE;
       desc: "Entry box text";
    }
    color_class { name: "entry_text_disabled";
@@ -557,7 +557,7 @@ color_classes {
       desc: "Entry cursor";
    }
    color_class { name: "entry_selection_handler";
-      color: 255 255 255 255;
+      color: COL_ENABLE;
       desc: "Entry selection handler";
    }
    color_class { name: "focus_outline";
